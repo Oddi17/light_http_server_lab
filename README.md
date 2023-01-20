@@ -14,3 +14,38 @@
 Для проверки работы в архиве прикреплен файл checker.py
 Также прикреплен файл data.json для проверки БД
 
+## Начальная страница
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/1.png" width="600px" height="400px"/></p>
+
+## Страница после регистрации нового пользователя и процесса авторизации
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/2.png" width="600px" height="400px"/></p>
+  
+## Страница после этапа авторизации
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/3.png" width="600px" height="400px"/></p>
+  
+## Процесс отправки сообщения
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/4.png" width="600px" height="400px"/></p>
+
+## Страница отправленного сообщения
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/5.png" width="600px" height="400px"/></p>
+
+## Страница с полученным сообщением на другой стороне
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/6.png" width="600px" height="400px"/></p>
+
+## Страница с просмотром полученного сообщения
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/7.png" width="600px" height="400px"/></p>
+
+## Страница после нажатия кнопки выход на главной странице
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/8.png" width="600px" height="400px"/></p>
+
+## Результат проверки чекера(тест)
+<p align="center">
+  <img src="https://github.com/Oddi17/light_http_server_lab/blob/main/screenshots/9.png" width="500px" height="200px"/></p>
