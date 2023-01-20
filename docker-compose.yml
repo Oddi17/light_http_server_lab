@@ -1,0 +1,9 @@
+version: "2.1"
+
+services:
+        messagesite:
+                build: .
+                ports:
+                        - "1234:1234"
+                volumes:
+                        - ./service:/home/service

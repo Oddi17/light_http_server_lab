@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Домашняя страница</title>
+	</head>
+	<body>
+	        <h1> 	Регистрация/Вход</h1>
+	        <p>     <big>Регистрация</big>
+			<form action='/register' method='GET'>
+			Логин</big><input type='text' name='username' value='' />
+			Пароль</big><input type='password' name='password' value='' />
+			<input type='submit' value='Отправить' /> 
+		</form>
+		<br>
+		<p>     <big>Вход</big>
+			<form action='/login' method='POST'>
+			Логин<input type='text' name='username' value='' />
+			Пароль<input type='password' name='password' value='' />
+			<input type='submit' value='Отправить' /> 
+		        </form>		
+		<br></br>	  
+		<p><big>Существует пользователей нас сайте: {{number_of_users}}</big>
+		<p>
+		{% if message%}
+		<p>
+		    <big><big>{{message}}</big></big>
+		<p>
+		{%endif %}
+	</body>
+<html>	

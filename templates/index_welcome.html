@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Добро пожаловать в клуб</title>
+	</head>
+	<body>
+		<h1> Добро пожаловать {{session['username']}}!</h1>
+		<div style="margin: 30px">
+		<img src = "https://i.gifer.com/2DV.gif" width="350" >
+		</div>
+		<table>
+			<tr>
+			    <td>
+				<table border='1'>
+				<thead>
+					<tr>
+					<th> Пользователь</th>
+					<th> Сообщение</th>
+					</tr>					
+				</thead>
+				<tbody>
+				        {%for mes in messages%}
+				        <tr><td>
+				        {{mes["frm"]}}
+				        </td>
+					<td>
+					<a href='/message/{{mes['idx']}}'> Посмотреть</a>
+					</td></tr>					
+					{%endfor%}
+				</tbody>
+			</table>
+				
+				<td> <p align="center"><big>Отправка сообщений</big>
+					<form action="/send" method ="POST">
+					<select name='username'>
+					{%for u in users%}
+						<option>{{u}}</option>
+					{%endfor%}
+					</select>
+					<textarea name='message'></textarea>
+					<input type='submit' value='Отправить' />
+					</form>
+				</td></tr>
+			</table>
+		 <form action='/logout' method='Get'>
+			<input type='submit' value='Выйти' /> 
+		 </form>	
+		 <p>
+		 {% if message%}
+		 <p>
+		    <big><big>{{message}}</big></big>
+		 <p>
+		 {%endif %}
+	</body>
+<html>	
